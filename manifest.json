@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "TabSearch",
+    "version": "1.0",
+  
+    "description": "Lists Tabs/Makes Searchable",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "browser_action": {
+        "default_title": "All Your Tabs",
+        "default_popup": "html/tab_list.html"
+    },
+
+    "permissions": ["activeTab", "tabs"]
+  
+  }
