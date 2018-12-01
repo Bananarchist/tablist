@@ -26,3 +26,7 @@ li {
 li:hover {
     cursor: pointer;
 }
+
+li.selected { 
+    background: blue;
+}

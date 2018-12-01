@@ -10,6 +10,15 @@
       "48": "icons/border-48.png"
     },
   
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Alt+Shift+T"
+            },
+            "description": "Open Tab Search"
+        }
+    },
+
     "browser_action": {
         "default_title": "All Your Tabs",
         "default_popup": "html/tab_list.html"
