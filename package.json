@@ -1,0 +1,24 @@
+{
+  "name": "tabsearch",
+  "version": "1.0.0",
+  "description": "Display, navigate and filter tabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/tabs.scss -o dist/html/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bananarchist/tablist.git"
+  },
+  "author": "wry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bananarchist/tablist/issues"
+  },
+  "homepage": "https://github.com/Bananarchist/tablist#readme",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0"
+  }
+}
